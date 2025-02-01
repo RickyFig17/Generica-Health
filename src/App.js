@@ -13,7 +13,6 @@ function App() {
       <header className="App-header">
         <BrowserRouter>
           <Header />
-          <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/medicare" element={<Medicare />} />
