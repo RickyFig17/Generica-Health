@@ -1,11 +1,11 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navbar from "./Header/Navbar";
 import Home from "./Home";
 import Ifp from "./Ifp";
 import Medicare from "./Medicare";
 import Medicaid from "./Medicaid";
 import Header from "./Header/Header";
+import Footer from "./Header/Footer";
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
           </Routes>
         </BrowserRouter>
       </header>
+      <Footer />
     </div>
   );
 }
