@@ -5,7 +5,7 @@ import Ifp from "./Ifp";
 import Medicare from "./Medicare";
 import Medicaid from "./Medicaid";
 import Header from "./Header/Header";
-import Footer from "./Header/Footer";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
