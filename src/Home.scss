@@ -8,17 +8,26 @@
   background-color: snow;
 
   p {
-    width: 50%;
     font-size: large;
   }
 
   h3 {
-    width: 100%;
     display: flex;
     margin-left: 1rem;
   }
 }
 
+.medicare-home-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 .oldlady {
   width: 13em;
+}
+
+.title-message-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
