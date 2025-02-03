@@ -1,5 +1,7 @@
 import React from "react";
 import "./Home.scss";
+import Medicare from "./Medicare";
+import oldlady from "./images/oldlady.png";
 
 const Home = () => {
   return (
@@ -20,6 +22,7 @@ function MedicareHome() {
     <div className="medicare-home-wrapper">
       <h3>{title}</h3>
       <p>{message}</p>
+    <img src={oldlady} alt="oldlady" className="oldlady"></img>
     </div>
   );
 }

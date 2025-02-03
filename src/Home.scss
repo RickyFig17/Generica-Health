@@ -2,14 +2,23 @@
   color: rgb(192, 185, 185);
 }
 
-.medicare-home-wrapper {
-  background-color: snow;
-}
-
-.medicaid-home-wrapper {
-  background-color: snow;
-}
-
+.medicare-home-wrapper,
+.medicaid-home-wrapper,
 .ifp-home-wrapper {
   background-color: snow;
+
+  p {
+    width: 50%;
+    font-size: large;
+  }
+
+  h3 {
+    width: 100%;
+    display: flex;
+    margin-left: 1rem;
+  }
+}
+
+.oldlady {
+  width: 13em;
 }
