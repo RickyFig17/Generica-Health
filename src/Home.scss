@@ -17,12 +17,23 @@
   }
 }
 
-.medicare-home-wrapper {
+.medicare-home-wrapper,
+.medicaid-home-wrapper,
+.ifp-home-wrapper {
   display: flex;
   justify-content: space-between;
 }
 
-.oldlady {
+.medicaid-home-wrapper {
+  flex-direction: row-reverse;
+}
+
+.oldlady, .family, .ifp {
+  width: 13em;
+  margin-right: 1rem;
+}
+
+.family {
   width: 13em;
   margin-right: 1rem;
 }

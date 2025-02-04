@@ -1,7 +1,8 @@
 import React from "react";
 import "./Home.scss";
-import Medicare from "./Medicare";
 import oldlady from "./images/oldlady.png";
+import family from "./images/family.png";
+import ifp from "./images/ifp.png";
 
 const Home = () => {
   return (
@@ -35,8 +36,11 @@ function MedicaidHome() {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
   return (
     <div className="medicaid-home-wrapper">
-      <h3>{title}</h3>
-      <p>{message}</p>
+      <div className="title-message-wrapper">
+        <h3>{title}</h3>
+        <p>{message}</p>
+      </div>
+      <img src={family} alt="family" className="family"></img>
     </div>
   );
 }
@@ -47,8 +51,11 @@ function IfpHome() {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
   return (
     <div className="ifp-home-wrapper">
-      <h3>{title}</h3>
-      <p>{message}</p>
+      <div className="title-message-wrapper">
+        <h3>{title}</h3>
+        <p>{message}</p>
+      </div>
+      <img src={ifp} alt="ifp" className="ifp"></img>
     </div>
   );
 }
