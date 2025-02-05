@@ -4,7 +4,7 @@ import oldlady from "./images/oldlady.png";
 import family from "./images/family.png";
 import ifp from "./images/ifp.png";
 
-const Home = () => {
+function Home(){
   return (
     <>
       <h1 className="home-header">Generica Health</h1>
