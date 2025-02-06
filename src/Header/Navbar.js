@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.scss"
+import "./Navbar.scss";
 
 const Navbar = () => {
+  const [isDropDownOpen, setIsDropDownOpen] = useState(false);
+
+  const toggleDropDown = () => {
+    setIsDropDownOpen(!isDropDownOpen);
+  };
+
   return (
     <div className="navbar-wrapper">
       <ul className="ul-wrapper">
@@ -18,6 +24,20 @@ const Navbar = () => {
         <li>
           <Link to="/medicaid">Medicaid</Link>
         </li>
+        <button onClick={toggleDropDown}>Other Products</button>
+        {isDropDownOpen && (
+          <ul>
+            <li>
+              <Link to="/employers"> Employers</Link>
+            </li>
+            <li>
+              <Link to="/providers">Providers</Link>
+            </li>
+            <li>
+              <Link to="/producers">Producers</Link>
+            </li>
+          </ul>
+        )}
       </ul>
     </div>
   );
