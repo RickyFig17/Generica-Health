@@ -8,7 +8,7 @@ import Employers from "./Employers";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Providers from "./Providers";
-import Producers from "./Producers";
+import Brokers from "./Brokers";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
             <Route path="/ifp" element={<Ifp />} />
             <Route path="/employers" element={<Employers />} />
             <Route path="/providers" element={<Providers />}></Route>
-            <Route path="/producers" element={<Producers />}></Route>
+            <Route path="/brokers" element={<Brokers />}></Route>
           </Routes>
         </BrowserRouter>
       </header>
