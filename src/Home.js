@@ -4,16 +4,17 @@ import oldlady from "./images/oldlady.png";
 import family from "./images/family.png";
 import ifp from "./images/ifp.png";
 
-function Home(){
+function Home() {
   return (
     <>
       <h1 className="home-header">Generica Health</h1>
       <h2>{<MedicareHome />}</h2>
       <h2>{<MedicaidHome />}</h2>
       <h2>{<IfpHome />}</h2>
+      <h2>{<OtherInfo />}</h2>
     </>
   );
-};
+}
 
 function MedicareHome() {
   const title = "Medicare";
@@ -56,6 +57,18 @@ function IfpHome() {
         <p>{message}</p>
       </div>
       <img src={ifp} alt="ifp" className="ifp"></img>
+    </div>
+  );
+}
+
+function OtherInfo() {
+  return (
+    <div className="otherinfo-wrapper">
+      <h1>Other Services</h1>
+      <h3>Behavioral Health</h3>
+      <h3>Dental Health</h3>
+      <h3>Vision Health</h3>
+      <h3>Physical Health</h3>
     </div>
   );
 }
