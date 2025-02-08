@@ -65,10 +65,20 @@ function OtherInfo() {
   return (
     <div className="otherinfo-wrapper">
       <h1>Other Services</h1>
-      <h3>Behavioral Health</h3>
-      <h3>Dental Health</h3>
-      <h3>Vision Health</h3>
-      <h3>Physical Health</h3>
+      <div className="health-wrapper">
+        <div className="behavioral">
+          <h3>Behavioral Health</h3>
+        </div>
+        <div className="dental">
+          <h3>Dental Health</h3>
+        </div>
+        <div className="vision">
+          <h3>Vision Health</h3>
+        </div>
+        <div className="physical">
+          <h3>Physical Health</h3>
+        </div>
+      </div>
     </div>
   );
 }

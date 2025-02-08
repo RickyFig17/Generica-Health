@@ -40,3 +40,22 @@
   flex-direction: column;
   width: 50%;
 }
+
+.health-wrapper {
+  display: flex;
+}
+
+.behavioral,
+.dental,
+.vision,
+.physical {
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 12rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  h3 {
+    font-size: xx-large;
+  }
+}
