@@ -5,13 +5,13 @@ function Ifp() {
     <>
       <h1>Individual And Family Plan</h1>
       <SearchForIfpPlans />
-      <SearchBar/>
+      <SearchBar />
     </>
   );
 }
 
 function SearchForIfpPlans() {
-  return <h3>Individual and family health insurance plans</h3>;
+  return <h3>Find plans near me:</h3>;
 }
 
 function SearchBar() {
@@ -25,7 +25,7 @@ function SearchBar() {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
-      <p>Find plans near me: {query}</p>
+      <p>{query}</p>
     </div>
   );
 }
