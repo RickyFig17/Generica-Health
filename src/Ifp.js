@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import TextContent from "./Text.json";
 
 function Ifp() {
   return (
     <>
-      <h1>Individual And Family Plan</h1>
+      <h1>{TextContent.TextContent.Ifp.ifpTitle}</h1>
       <SearchForIfpPlans />
       <SearchBar />
       <IfpParagraph />
@@ -12,7 +13,7 @@ function Ifp() {
 }
 
 function SearchForIfpPlans() {
-  return <h3>Find plans near me:</h3>;
+  return <h3>{TextContent.TextContent.Ifp.findPlans}</h3>;
 }
 
 function SearchBar() {
@@ -34,90 +35,71 @@ function SearchBar() {
 function IfpParagraph() {
   return (
     <>
-      <h3>What is IFP?</h3>
+      <h3>{TextContent.TextContent.Ifp.whatIsIfp}</h3>
       <p>
-        IFP stands for Individual and Family Plan, and it is a health insurance
-        plan purchased by individuals or families, typically through:
+        {TextContent.TextContent.Ifp.ifpDefinition}
         <ul>
-          <li>
-            The health insurance marketplace (established by the Affordable Care
-            Act)
-          </li>
-          <li>Directly from private insurance providers</li>
+          <li>{TextContent.TextContent.Ifp.healthInsMarketplace}</li>
+          <li>{TextContent.TextContent.Ifp.DirFromPriInsProv}</li>
+        </ul>
+        <p>{TextContent.TextContent.Ifp.plansDesigned}</p>
+      </p>
+      <h3>{TextContent.TextContent.Ifp.whosEligible}</h3>
+      <p>{TextContent.TextContent.Ifp.ifpWithoutEmployer}</p>
+      <h3>{TextContent.TextContent.Ifp.whatDoesItCover}</h3>
+      <p>
+        {TextContent.TextContent.Ifp.ifpEssentialHealth}
+        <ul>
+          <li>{TextContent.TextContent.Ifp.doctorVisits}</li>
+          <li>{TextContent.TextContent.Ifp.HosAndEmerCare}</li>
+          <li>{TextContent.TextContent.Ifp.prescriptionDrugs}</li>
+          <li>{TextContent.TextContent.Ifp.preventiveCare}</li>
+          <li>{TextContent.TextContent.Ifp.MatAndNewBornCare}</li>
+          <li>{TextContent.TextContent.Ifp.MentalHealthServices}</li>
+          <li>{TextContent.TextContent.Ifp.pediatricServices}</li>
+        </ul>
+      </p>
+      <h3>{TextContent.TextContent.Ifp.ifpPlanOptions}</h3>
+      <p>
+        {TextContent.TextContent.Ifp.planCategories}
+        <ul>
+          <li>{TextContent.TextContent.Ifp.bronze}</li>
+          <li>{TextContent.TextContent.Ifp.silver}</li>
+          <li>{TextContent.TextContent.Ifp.gold}</li>
+          <li>{TextContent.TextContent.Ifp.platinum}</li>
+        </ul>
+      </p>
+      <h3>{TextContent.TextContent.Ifp.personalCost}</h3>
+      <p>
+        {TextContent.TextContent.Ifp.costsVary}
+        <ul>
+          <li>{TextContent.TextContent.Ifp.age}</li>
+          <li>{TextContent.TextContent.Ifp.location}</li>
+          <li>{TextContent.TextContent.Ifp.tobaccoUse}</li>
+          <li>{TextContent.TextContent.Ifp.planCategory}</li>
+          <li>{TextContent.TextContent.Ifp.peopleCovered}</li>
+        </ul>
+      </p>
+      <h3>{TextContent.TextContent.Ifp.whenCanIEnroll}</h3>
+      <p>
+        {TextContent.TextContent.Ifp.twoTypesEnrollment}
+        <ul>
+          <li>{TextContent.TextContent.Ifp.openEnrollment}</li>
+          <li>{TextContent.TextContent.Ifp.specialEnrollment}</li>
         </ul>
       </p>
       <p>
-        These plans are designed for people who don't have access to
-        employer-sponsored health coverage and provide essential health benefits
-        like doctor visits, hospitalization, prescription drugs, and preventive
-        care.
-      </p>
-      <h3>Who's eligible?</h3>
-      <p>
-        Individuals and families without employer sponsored health insurance.
-        Accessible to self-employed individuals, part-time workers, or early
-        retirees.
-      </p>
-      <h3>What does it cover?</h3>
-      <p>
-        IFPs cover essential health benefits, including:
+        <h3>{TextContent.TextContent.Ifp.benefitsOfIfp}</h3>
         <ul>
-          <li>Doctor visits (primary care and specialists)</li>
-          <li>Hospitalization and emergency care</li>
-          <li>Prescription drugs</li>
-          <li>Preventive care (e.g., vaccinations, screenings)</li>
-          <li>Maternity and newborn care</li>
-          <li>Mental health services</li>
-          <li>Pediatric services (including vision and dental for children)</li>
-        </ul>
-      </p>
-      <h3>What are some plans that IFP offers?</h3>
-      <p>
-        Plans are categorized based on cost-sharing:
-        <ul>
-          <li>Bronze: Lower monthly premiums, higher out-of-pocket costs</li>
-          <li>Silver: Moderate premiums and out-of-pocket costs</li>
-          <li>Gold: Higher premiums, lower out-of-pocket expenses</li>
-          <li>Platinum: Highest premiums, lowest out-of-pocket expenses</li>
-        </ul>
-      </p>
-      <h3>How much will it cost me?</h3>
-      <p>
-        Costs vary depending on:
-        <ul>
-          <li>Age</li>
-          <li>Location</li>
-          <li>Tobacco use</li>
-          <li>Plan category</li>
-          <li>Number of people covered</li>
-        </ul>
-      </p>
-      <h3>When can I enroll?</h3>
-      <p>
-        There's two types of enrollment:
-        <ul>
-          <li>Open Enrollment: Occurs annually, typically in the fall</li>
-          <li>
-            Special Enrollment: Available after qualifying life events (e.g.,
-            marriage, birth, job loss)
-          </li>
+          <li>{TextContent.TextContent.Ifp.customizablePlans}</li>
+          <li>{TextContent.TextContent.Ifp.networkOptions}</li>
+          <li>{TextContent.TextContent.Ifp.comprehensiveCoverage}</li>
         </ul>
       </p>
       <p>
-        <h3> What are some benifits of IFPs?</h3>
+        <h3>{TextContent.TextContent.Ifp.howCanIqualify}</h3>
         <ul>
-          <li>Customizable plans tailored to your healthcare needs</li>
-          <li>Nationwide or regional provider network options</li>
-          <li>Peace of mind with comprehensive coverage</li>
-        </ul>
-      </p>
-      <p>
-        <h3>How can I qualify for it?</h3>
-        <ul>
-          <li>
-            Many people qualify for financial assistance through tax credits or
-            cost-sharing reductions if they purchase through the Marketplace.
-          </li>
+          <li>{TextContent.TextContent.Ifp.financialAssistance}</li>
         </ul>
       </p>
     </>
