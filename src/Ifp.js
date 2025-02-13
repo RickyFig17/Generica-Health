@@ -104,7 +104,7 @@ function IfpParagraph() {
         </ul>
       </p>
       <p>
-        What are some benifits of IFPs?
+        <h3> What are some benifits of IFPs?</h3>
         <ul>
           <li>Customizable plans tailored to your healthcare needs</li>
           <li>Nationwide or regional provider network options</li>
@@ -112,7 +112,7 @@ function IfpParagraph() {
         </ul>
       </p>
       <p>
-        How can I qualify for it?
+        <h3>How can I qualify for it?</h3>
         <ul>
           <li>
             Many people qualify for financial assistance through tax credits or
