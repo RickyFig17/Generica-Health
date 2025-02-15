@@ -48,6 +48,10 @@
       "comprehensiveCoverage": "Peace of mind with comprehensive coverage",
       "howCanIqualify": "How can I qualify for it?",
       "financialAssistance": "Many people qualify for financial assistance through tax credits or cost-sharing reductions if they purchase through the Marketplace."
+    },
+    "Medicare": {
+      "medicare": "Medicare",
+      "findPlans": "Find plans near me:"
     }
   }
 }

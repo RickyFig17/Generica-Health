@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import TextContent from "./Text.json"
 
 function Medicare() {
   return (
     <>
-      <h1>Medicare</h1>
+      <h1>{TextContent.TextContent.Medicare.medicare}</h1>
       <SearchForMedicarePlans />
       <SearchBar />
       <MedicareParagraph />
@@ -12,7 +13,7 @@ function Medicare() {
 }
 
 function SearchForMedicarePlans() {
-  return <h3>Find plans near me:</h3>;
+  return <h3>{TextContent.TextContent.Medicare.findPlans}</h3>;
 }
 
 function SearchBar() {
