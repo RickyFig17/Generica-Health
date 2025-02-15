@@ -36,41 +36,26 @@ function MedicaidParagraph() {
   return (
     <>
       <h3>{TextContent.TextContent.Medicaid.whatisMedicaid}</h3>
-      <p>
-        Medicaid is a joint federal and state health insurance program designed
-        to provide free or low-cost healthcare to low-income individuals and
-        families. Unlike Medicare, which is mainly for seniors, Medicaid covers
-        a broader range of people, including children, pregnant women, elderly
-        individuals, and people with disabilities.
-      </p>
-      <h3>Key Features of Medicaid:</h3>
+      <p>{TextContent.TextContent.Medicaid.medicaidDescription}</p>
+      <h3>{TextContent.TextContent.Medicaid.medicaidFeatures}</h3>
       <ul>
-        <h5>Eligibility:</h5>
-        <li>
-          Based on income and household size, typically determined by the
-          Federal Poverty Level (FPL).
-        </li>
-        <li>
-          Includes low-income adults, children (CHIP), pregnant women, elderly
-          individuals, and people with disabilities.
-        </li>
-        <li>
-          Some states have expanded Medicaid under the Affordable Care Act (ACA)
-          to cover more low-income adults.
-        </li>
+        <h5>{TextContent.TextContent.Medicaid.eligibility}</h5>
+        <li>{TextContent.TextContent.Medicaid.incomeHouseBased}</li>
+        <li>{TextContent.TextContent.Medicaid.lowIncomeAdults}</li>
+        <li>{TextContent.TextContent.Medicaid.medicaidExpansion}</li>
       </ul>
       <ul>
-        <h5>Coverage:</h5>
-        Medicaid provides comprehensive health benefits, including:
-        <li>Doctor visits and hospital care</li>
-        <li>Prescription drugs</li>
-        <li>Preventive services (vaccines, screenings)</li>
-        <li>Maternity and newborn care</li>
-        <li>Mental health and substance abuse treatment</li>
-        <li>Long-term care (including nursing home services)</li>
+        <h5>{TextContent.TextContent.Medicaid.coverage}</h5>
+        {TextContent.TextContent.Medicaid.compHealthBenefits}
+        <li>{TextContent.TextContent.Medicaid.doctorVisits}</li>
+        <li>{TextContent.TextContent.Medicaid.prescriptionDrugs}</li>
+        <li>{TextContent.TextContent.Medicaid.preventiveServices}</li>
+        <li>{TextContent.TextContent.Medicaid.MatAndNewBornCare}</li>
+        <li>{TextContent.TextContent.Medicaid.menHSubsAbuse}</li>
+        <li>{TextContent.TextContent.Medicaid.longTermCare}</li>
       </ul>
       <ul>
-        <h5>Cost:</h5>
+        <h5>{TextContent.TextContent.Medicaid.cost}</h5>
         <li>
           Minimal or no costs for enrollees (some may have small copays,
           depending on the state).

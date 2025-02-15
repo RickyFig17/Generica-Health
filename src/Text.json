@@ -82,7 +82,22 @@
     "Medicaid": {
       "medicaid": "Medicaid",
       "findPlans": "Find plans near me:",
-      "whatisMedicaid": "What is Medicaid?"
+      "whatisMedicaid": "What is Medicaid?",
+      "medicaidDescription": "Medicaid is a joint federal and state health insurance program designed to provide free or low-cost healthcare to low-income individuals and families. Unlike Medicare, which is mainly for seniors, Medicaid covers a broader range of people, including children, pregnant women, elderly individuals, and people with disabilities.",
+      "medicaidFeatures": "Key Features of Medicaid:",
+      "eligibility": "Eligibility:",
+      "incomeHouseBased": "Based on income and household size, typically determined by the Federal Poverty Level (FPL).",
+      "lowIncomeAdults": "Includes low-income adults, children (CHIP), pregnant women, elderly individuals, and people with disabilities.",
+      "medicaidExpansion": "Some states have expanded Medicaid under the Affordable Care Act (ACA) to cover more low-income adults.",
+      "coverage": "Coverage:",
+      "compHealthBenefits": "Medicaid provides comprehensive health benefits, including:",
+      "doctorVisits": "Doctor visits and hospital care",
+      "prescriptionDrugs": "Prescription Drugs",
+      "preventiveServices": "Preventive services (vaccines, screenings)",
+      "MatAndNewBornCare": "Maternity and newborn care",
+      "menHSubsAbuse": "Mental health and substance abuse treatment",
+      "longTermCare": "Long-term care (including nursing home services)",
+      "cost": "Cost:"
     }
   }
 }
