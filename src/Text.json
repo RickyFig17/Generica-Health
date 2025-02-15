@@ -51,7 +51,33 @@
     },
     "Medicare": {
       "medicare": "Medicare",
-      "findPlans": "Find plans near me:"
+      "findPlans": "Find plans near me:",
+      "whatIsMedicare": "What is Medicare?",
+      "medicareDescription": "Medicare is a federal health insurance program primarily designed for people aged 65 and older. It also covers certain younger individuals with disabilities or specific health conditions like End-Stage Renal Disease. Medicare provides essential health coverage and is made up of different parts to help cover various aspects of healtchare. These are:",
+      "medicarePartA": "Medicare Part A (Hospital Insurance)",
+      "coversInpatient": "Covers inpatient hospital care, skilled nursing facility care, hospice, and some home health services.",
+      "mostDontPay": "Most people don't pay a premium for Part A if they or their spouse paid Medicare taxes while working.",
+      "medicarePartB": "Medicare Part B (Medical Insurance)",
+      "coversOutpatient": "Covers outpatient care, doctor visits, preventive services (like screenings and vaccinations), and certain home health services.",
+      "partBRequirements": "Part B requires a monthly premium.",
+      "medicarePartC": "Medicare Part C (Medicare Advantage)",
+      "offeredPrivateIns": "Offered through private insurance companies approved by Medicare.",
+      "combinesPartAandB": "Combines coverage from Part A and Part B, and often includes additional benefits like prescription drugs, vision, and dental care.",
+      "plansVary": "Plans can vary, but many offer lower out-of-pocket costs and more coverage options.",
+      "medicarePartD": "Medicare Part D",
+      "helpsCoverCost": "Helps cover the cost of prescription medications.",
+      "privateInsAvailability": "Available through private insurers and can be added to Original Medicare (Parts A and B) or included in a Medicare Advantage plan (Part C).",
+      "medicarePrivateDifference": "What's the difference between Medicare and a private health insurance?",
+      "twoDifferences": "There's two main differences:",
+      "eligibility": "Eligibility",
+      "medicareAvailability": "Unlike private health insurance, Medicare is available regardless of income but is typically for seniors (65+) or those with certain disabilities.",
+      "coverage": "Coverage",
+      "standardizedMedicare": "Medicare is standardized by the federal government, whereas private insurance plans can offer a wider range of options and may require additional premiums, copayments, and deductibles.",
+      "additionalInformation": "Some additional information",
+      "medigap": "Medigap",
+      "fillingGaps": "Private insurance that helps fill the gaps in Medicare coverage (e.g., out-of-pocket costs like copayments, coinsurance, and deductibles).",
+      "costs": "Costs",
+      "medicareManyServices": "While Medicare covers many services, it doesn't pay for everything. Beneficiaries may still have out-of-pocket expenses, including premiums, deductibles, and copayments, depending on the plan."
     }
   }
 }
