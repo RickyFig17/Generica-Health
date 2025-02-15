@@ -97,7 +97,30 @@
       "MatAndNewBornCare": "Maternity and newborn care",
       "menHSubsAbuse": "Mental health and substance abuse treatment",
       "longTermCare": "Long-term care (including nursing home services)",
-      "cost": "Cost:"
+      "cost": "Cost:",
+      "noCostEnrollees": "Minimal or no costs for enrollees (some may have small copays, depending on the state).",
+      "federalAndStateFunded": "Funded by both federal and state governments, with each state managing its own program within federal guidelines.",
+      "stateSpecificPrograms": "State-Specific Programs:",
+      "medicaidBenefits": "Medicaid benefits and eligibility rules vary by state.",
+      "additionalBenefits": "Some states have additional benefits, such as dental and vision coverage.",
+      "enrollment": "Enrollment:",
+      "yearRoundAvailability": "Available year-round (unlike Medicare or private insurance, which have specific enrollment periods).",
+      "statesMedicaidApplication": "People can apply through their state's Medicaid office or the Health Insurance Marketplace.",
+      "medicaidVsMedicare": "Medicaid vs. Medicare: What's the Difference?",
+      "feature": "Feature",
+      "medicare": "Medicare",
+      "whoQualifies": "Who Qualifies?",
+      "lowIncomeIndFam": "Low-income individuals & families",
+      "seniorsAndYoungDis": "Seniors (65+), some younger people with disabilities",
+      "howItsFunded": "How It's Funded?",
+      "fedAndStateGov": "Federal & state governments",
+      "federalGovernment": "Federal government",
+      "costsQ": "Costs?",
+      "freeOrLowCost": "Free or low-cost",
+      "somePremiums": "Some premiums, deductibles, and copays",
+      "coverageQ": "Coverage?",
+      "longTermIncluded": "Varies by state, includes long-term care",
+      "standardized": "Standardized, but gaps may require additional plans (Medigap, Part D)"
     }
   }
 }

@@ -56,63 +56,45 @@ function MedicaidParagraph() {
       </ul>
       <ul>
         <h5>{TextContent.TextContent.Medicaid.cost}</h5>
-        <li>
-          Minimal or no costs for enrollees (some may have small copays,
-          depending on the state).
-        </li>
-        <li>
-          Funded by both federal and state governments, with each state managing
-          its own program within federal guidelines.
-        </li>
+        <li>{TextContent.TextContent.Medicaid.noCostEnrollees}</li>
+        <li>{TextContent.TextContent.Medicaid.federalAndStateFunded}</li>
       </ul>
       <ul>
-        <h5>State-Specific Programs:</h5>
-        <li>Medicaid benefits and eligibility rules vary by state.</li>
-        <li>
-          Some states have additional benefits, such as dental and vision
-          coverage.
-        </li>
+        <h5>{TextContent.TextContent.Medicaid.stateSpecificPrograms}</h5>
+        <li>{TextContent.TextContent.Medicaid.medicaidBenefits}</li>
+        <li>{TextContent.TextContent.Medicaid.additionalBenefits}</li>
       </ul>
       <ul>
-        <h5>Enrollment:</h5>
-        <li>
-          Available year-round (unlike Medicare or private insurance, which have
-          specific enrollment periods).
-        </li>
-        <li>
-          People can apply through their state’s Medicaid office or the Health
-          Insurance Marketplace.
-        </li>
+        <h5>{TextContent.TextContent.Medicaid.enrollment}</h5>
+        <li>{TextContent.TextContent.Medicaid.yearRoundAvailability}</li>
+        <li>{TextContent.TextContent.Medicaid.statesMedicaidApplication}</li>
       </ul>
-      <h3>Medicaid vs. Medicare: What's the Difference?</h3>
+      <h3>{TextContent.TextContent.Medicaid.medicaidVsMedicare}</h3>
       <table>
         <tr>
-          <th>Feature</th>
-          <th>Medicaid</th>
-          <th>Medicare</th>
+          <th>{TextContent.TextContent.Medicaid.feature}</th>
+          <th>{TextContent.TextContent.Medicaid.medicaid}</th>
+          <th>{TextContent.TextContent.Medicaid.medicare}</th>
         </tr>
         <tr>
-          <td>Who Qualifies?</td>
-          <td>Low-income individuals & families</td>
-          <td>Seniors (65+), some younger people with disabilities</td>
+          <td>{TextContent.TextContent.Medicaid.whoQualifies}</td>
+          <td>{TextContent.TextContent.Medicaid.lowIncomeIndFam}</td>
+          <td>{TextContent.TextContent.Medicaid.seniorsAndYoungDis}</td>
         </tr>
         <tr>
-          <td>How It's Funded?</td>
-          <td>Federal & state governments</td>
-          <td>Federal government</td>
+          <td>{TextContent.TextContent.Medicaid.howItsFunded}</td>
+          <td>{TextContent.TextContent.Medicaid.fedAndStateGov}</td>
+          <td>{TextContent.TextContent.Medicaid.federalGovernment}</td>
         </tr>
         <tr>
-          <td>Costs?</td>
-          <td>Free or low-cost</td>
-          <td>Some premiums, deductibles, and copays</td>
+          <td>{TextContent.TextContent.Medicaid.costsQ}</td>
+          <td>{TextContent.TextContent.Medicaid.freeOrLowCost}</td>
+          <td>{TextContent.TextContent.Medicaid.somePremiums}</td>
         </tr>
         <tr>
-          <td>Coverage?</td>
-          <td>Varies by state, includes long-term care</td>
-          <td>
-            Standardized, but gaps may require additional plans (Medigap, Part
-            D)
-          </td>
+          <td>{TextContent.TextContent.Medicaid.coverageQ}</td>
+          <td>{TextContent.TextContent.Medicaid.longTermIncluded}</td>
+          <td>{TextContent.TextContent.Medicaid.standardized}</td>
         </tr>
       </table>
     </>
