@@ -78,6 +78,11 @@
       "fillingGaps": "Private insurance that helps fill the gaps in Medicare coverage (e.g., out-of-pocket costs like copayments, coinsurance, and deductibles).",
       "costs": "Costs",
       "medicareManyServices": "While Medicare covers many services, it doesn't pay for everything. Beneficiaries may still have out-of-pocket expenses, including premiums, deductibles, and copayments, depending on the plan."
+    },
+    "Medicaid": {
+      "medicaid": "Medicaid",
+      "findPlans": "Find plans near me:",
+      "whatisMedicaid": "What is Medicaid?"
     }
   }
 }
