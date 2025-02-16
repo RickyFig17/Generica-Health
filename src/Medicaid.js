@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import TextContent from "./Text.json";
+import "./Medicaid.scss";
 
 function Medicaid() {
   return (
