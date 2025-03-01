@@ -9,6 +9,8 @@ import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Providers from "./Providers";
 import Brokers from "./Brokers";
+import Terms from "./Footer/Terms";
+import Privacy from "./Footer/Privacy";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
             <Route path="/employers" element={<Employers />} />
             <Route path="/providers" element={<Providers />}></Route>
             <Route path="/brokers" element={<Brokers />}></Route>
+            <Route path="/Terms" element={<Terms />}></Route>
+            <Route path="/Privacy" element={<Privacy />}></Route>
           </Routes>
         </BrowserRouter>
       </header>

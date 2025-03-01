@@ -6,6 +6,28 @@
       "terms": "Terms of Service",
       "disclaimer": "This is NOT an official medical website. This is a portfolio project to show a fictional product and should not be used for medical purposes. The creator of Generica Health is not responsible for any medical decisions you choose to make. ALWAYS consult with your healthcare provider for healthcare products that might benefit you and your loved ones."
     },
+    "Privacy": {
+      "privacyPolicy": "Privacy Policy",
+      "effectiveDate": "Effective Date: ",
+      "januaryFirst": "January 1st, 2025",
+      "welcome": "Welcome to Generica Health. Your privacy is important to us. This Privacy Policy explains our practices regarding data collection and usage.",
+      "collectingInfo": "1. Information We Collect",
+      "noInfoCollection": "Generica Health does not collect, store, or process any personal data. All information displayed on our website is hardcoded and not user-generated.",
+      "usingInfo": "2. How We Use Your Information",
+      "noInfoUsage": "Since we do not collect any personal data, we do not use or process any user information. Our website serves static content for informational purposes only.",
+      "sharingInfo": "3. How We Share Your Information",
+      "noInfoSharing": "We do not share any user data, as we do not collect any personal information.",
+      "dataSecurity": "4. Data Security",
+      "dataSecurityImplementation": "Although we do not store user data, we implement security measures to ensure the integrity of our website and prevent unauthorized access or modifications.",
+      "yourRights": "5. Your Rights and Choices",
+      "noDataCollection": "As we do not collect personal data, there are no user rights related to data access, modification, or deletion.",
+      "thirdPartyLinks": "6. Third-Party Links",
+      "thirdPartyWebsites": "Our website may contain links to third-party websites. We are not responsible for the privacy practices of those websites and encourage you to review their privacy policies.",
+      "changesToPrivacyPolicy": "7. Changes to This Privacy Policy",
+      "privacyPolicyUpdates": "We may update this Privacy Policy from time to time. Any changes will be posted on this page with the updated effective date.",
+      "genericaHealth": "Generica Health",
+      "thankYou": "Thank you for visiting Generica Health."
+    },
     "Ifp": {
       "ifpTitle": "Individual And Family Plan",
       "findPlans": "Find plans near me:",
