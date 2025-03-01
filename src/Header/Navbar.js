@@ -27,17 +27,7 @@ const Navbar = () => {
         <li style={{ position: "relative" }}>
           <button onClick={toggleDropDown}>Other Products</button>
           {isDropDownOpen && (
-            <div
-              style={{
-                position: "absolute",
-                top: "100%", // Places the dropdown below the button
-                left: 0,
-                backgroundColor: "white",
-                border: "1px solid #ccc",
-                padding: "5px",
-                boxShadow: "0px 4px 6px rgba(0,0,0,0.1)",
-              }}
-            >
+            <div className="dropDownButton">
               <ul>
                 <li>
                   <Link to="/employers"> Employers</Link>
