@@ -8,6 +8,10 @@
   width: 100%;
 }
 
+ul {
+  list-style: none;
+}
+
 .dropDownButton {
   position: "absolute";
   top: "100%"; // Places the dropdown below the button
