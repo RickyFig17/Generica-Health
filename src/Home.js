@@ -41,7 +41,9 @@ function MedicaidHome() {
   return (
     <div className="medicaid-home-wrapper">
       <div className="title-message-wrapper">
-        <h3>{title}</h3>
+        <Link to="/medicaid">
+          <h3>{title}</h3>
+        </Link>
         <p>{message}</p>
       </div>
       <img src={family} alt="family" className="family"></img>
@@ -55,7 +57,9 @@ function IfpHome() {
   return (
     <div className="ifp-home-wrapper">
       <div className="title-message-wrapper">
-        <h3>{title}</h3>
+        <Link to="/ifp">
+          <h3>{title}</h3>
+        </Link>
         <p>{message}</p>
       </div>
       <img src={ifp} alt="ifp" className="ifp"></img>

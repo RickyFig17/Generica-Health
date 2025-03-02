@@ -11,12 +11,14 @@ import Providers from "./Providers";
 import Brokers from "./Brokers";
 import Terms from "./Footer/Terms";
 import Privacy from "./Footer/Privacy";
+import JsLibrary from "./JsCodeLibrary/FunctionsLibrary";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <BrowserRouter>
+          <JsLibrary />
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
