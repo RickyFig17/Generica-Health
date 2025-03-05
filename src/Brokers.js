@@ -15,10 +15,11 @@ function BrokersHeader() {
     <div>
       <h3>healthcare for Brokers</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. And other things as well.
+        Partner with us to offer your clients the best in health insurance. Our
+        comprehensive plans, competitive rates, and dedicated support make it
+        easy for brokers to provide top-tier coverage. Expand your portfolio,
+        boost client satisfaction, and grow your business with confidence. Join
+        us today and unlock new opportunities!
       </p>
     </div>
   );
