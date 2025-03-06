@@ -171,6 +171,11 @@
       "coverageQ": "Coverage?",
       "longTermIncluded": "Varies by state, includes long-term care",
       "standardized": "Standardized, but gaps may require additional plans (Medigap, Part D)"
+    },
+    "Employers": {
+      "employers": "Employers",
+      "rightPlan": "The Right Plan for Employers",
+      "protectBusiness": "Protect your business and your team with comprehensive health insurance designed for employers. Our flexible plans offer quality coverage, competitive rates, and essential benefits to keep your employees healthy and productive. Invest in their well-being while enhancing job satisfaction and retention. Get a quote today and build a stronger workplace with the right coverage!"
     }
   }
 }
