@@ -176,6 +176,11 @@
       "employers": "Employers",
       "rightPlan": "The Right Plan for Employers",
       "protectBusiness": "Protect your business and your team with comprehensive health insurance designed for employers. Our flexible plans offer quality coverage, competitive rates, and essential benefits to keep your employees healthy and productive. Invest in their well-being while enhancing job satisfaction and retention. Get a quote today and build a stronger workplace with the right coverage!"
+    },
+    "Providers": {
+      "providers": "Providers",
+      "healthcareProviders": "Healthcare for Providers",
+      "empowerHealthSolutions": "Empower your practice with comprehensive healthcare solutions designed for providers. Our tailored plans offer reliable coverage, competitive rates, and essential benefits to support you in delivering quality care. Focus on your patients while we take care of your insurance needs. Get started today and secure the coverage you deserve!"
     }
   }
 }
