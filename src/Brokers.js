@@ -1,10 +1,11 @@
 import React from "react";
 import "./Brokers.scss";
+import TextContent from "./Text.json";
 
 function Brokers() {
   return (
     <>
-      <h1>Brokers</h1>
+      <h1>{TextContent.TextContent.Brokers.brokers}</h1>
       <BrokersHeader />
     </>
   );
@@ -13,13 +14,9 @@ function Brokers() {
 function BrokersHeader() {
   return (
     <div>
-      <h3>healthcare for Brokers</h3>
+      <h3>{TextContent.TextContent.Brokers.healthcareBrokers}</h3>
       <p>
-        Partner with us to offer your clients the best in health insurance. Our
-        comprehensive plans, competitive rates, and dedicated support make it
-        easy for brokers to provide top-tier coverage. Expand your portfolio,
-        boost client satisfaction, and grow your business with confidence. Join
-        us today and unlock new opportunities!
+        {TextContent.TextContent.Brokers.partnerWithClients}
       </p>
     </div>
   );

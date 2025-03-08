@@ -172,6 +172,11 @@
       "longTermIncluded": "Varies by state, includes long-term care",
       "standardized": "Standardized, but gaps may require additional plans (Medigap, Part D)"
     },
+    "Brokers": {
+      "brokers": "Brokers",
+      "healthcareBrokers": "healthcare for Brokers",
+      "partnerWithClients": "Partner with us to offer your clients the best in health insurance. Our comprehensive plans, competitive rates, and dedicated support make it easy for brokers to provide top-tier coverage. Expand your portfolio, boost client satisfaction, and grow your business with confidence. Join us today and unlock new opportunities!"
+    },
     "Employers": {
       "employers": "Employers",
       "rightPlan": "The Right Plan for Employers",
