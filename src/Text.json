@@ -186,6 +186,17 @@
       "providers": "Providers",
       "healthcareProviders": "Healthcare for Providers",
       "empowerHealthSolutions": "Empower your practice with comprehensive healthcare solutions designed for providers. Our tailored plans offer reliable coverage, competitive rates, and essential benefits to support you in delivering quality care. Focus on your patients while we take care of your insurance needs. Get started today and secure the coverage you deserve!"
+    },
+
+    "Navbar": {
+      "home": "Home",
+      "ifp": "Individual And Family Plan",
+      "medicare": "Medicare",
+      "medicaid": "Medicaid",
+      "otherProducts": "Other Products",
+      "employers": "Employers",
+      "providers": "Providers",
+      "brokers": "Brokers"
     }
   }
 }

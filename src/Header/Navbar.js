@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.scss";
-import TextContent from "./Text.json";
+import TextContent from "../Text.json";
 
 const Navbar = () => {
   const [isDropDownOpen, setIsDropDownOpen] = useState(false);
@@ -14,30 +14,38 @@ const Navbar = () => {
     <div className="navbar-wrapper">
       <ul className="ul-wrapper">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">{TextContent.TextContent.Navbar.home}</Link>
         </li>
         <li>
-          <Link to="/ifp">Individual And Family Plan</Link>
+          <Link to="/ifp">{TextContent.TextContent.Navbar.ifp}</Link>
         </li>
         <li>
-          <Link to="/medicare">Medicare</Link>
+          <Link to="/medicare">{TextContent.TextContent.Navbar.medicare}</Link>
         </li>
         <li>
-          <Link to="/medicaid">Medicaid</Link>
+          <Link to="/medicaid">{TextContent.TextContent.Navbar.medicaid}</Link>
         </li>
         <li style={{ position: "relative" }}>
-          <button onClick={toggleDropDown}>Other Products</button>
+          <button onClick={toggleDropDown}>
+            {TextContent.TextContent.Navbar.otherProducts}
+          </button>
           {isDropDownOpen && (
             <div className="dropDownButton">
               <ul>
                 <li>
-                  <Link to="/employers"> Employers</Link>
+                  <Link to="/employers">
+                    {TextContent.TextContent.Navbar.employers}
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/providers">Providers</Link>
+                  <Link to="/providers">
+                    {TextContent.TextContent.Navbar.providers}
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/brokers">Brokers</Link>
+                  <Link to="/brokers">
+                    {TextContent.TextContent.Navbar.brokers}
+                  </Link>
                 </li>
               </ul>
             </div>
