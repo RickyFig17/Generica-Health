@@ -1,5 +1,19 @@
 {
   "TextContent": {
+    "Home": {
+      "genericaHealth": "Generica Health",
+      "medicare": "Medicare",
+      "medicareMessage": "Quality care, affordable coverage, Medicare has you covered.",
+      "medicaid": "Medicaid",
+      "medicaidMessage": "Affordable care and stronger communities, Medicaid makes it possible.",
+      "ifp": "Individual And Family Plan",
+      "ifpMessage": "Flexible health coverage, built for you and your family.",
+      "otherServices": "Other Services",
+      "behavioralHealth": "Behavioral Health",
+      "dentalHealth": "Dental Health",
+      "visionHealth": "Vision Health",
+      "physicalHealth": "Physical Health"
+    },
     "Footer": {
       "copyRight": " Generica Health. All rights reserved.",
       "privacy": "Privacy Policy",
