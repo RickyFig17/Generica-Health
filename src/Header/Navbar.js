@@ -14,16 +14,16 @@ const Navbar = () => {
     <div className="navbar-wrapper">
       <ul className="ul-wrapper">
         <li>
-          <Link to="/">{TextContent.TextContent.Navbar.home}</Link>
+          <Link to="/" className="no-underline">{TextContent.TextContent.Navbar.home}</Link>
         </li>
         <li>
-          <Link to="/ifp">{TextContent.TextContent.Navbar.ifp}</Link>
+          <Link to="/ifp" className="no-underline">{TextContent.TextContent.Navbar.ifp}</Link>
         </li>
         <li>
-          <Link to="/medicare">{TextContent.TextContent.Navbar.medicare}</Link>
+          <Link to="/medicare" className="no-underline">{TextContent.TextContent.Navbar.medicare}</Link>
         </li>
         <li>
-          <Link to="/medicaid">{TextContent.TextContent.Navbar.medicaid}</Link>
+          <Link to="/medicaid" className="no-underline">{TextContent.TextContent.Navbar.medicaid}</Link>
         </li>
         <li style={{ position: "relative" }}>
           <button onClick={toggleDropDown}>
@@ -33,17 +33,17 @@ const Navbar = () => {
             <div className="dropDownButton">
               <ul>
                 <li>
-                  <Link to="/employers">
+                  <Link to="/employers" className="no-underline">
                     {TextContent.TextContent.Navbar.employers}
                   </Link>
                 </li>
                 <li>
-                  <Link to="/providers">
+                  <Link to="/providers" className="no-underline">
                     {TextContent.TextContent.Navbar.providers}
                   </Link>
                 </li>
                 <li>
-                  <Link to="/brokers">
+                  <Link to="/brokers" className="no-underline">
                     {TextContent.TextContent.Navbar.brokers}
                   </Link>
                 </li>

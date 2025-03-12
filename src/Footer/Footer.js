@@ -12,10 +12,10 @@ function Footer() {
       <nav>
         <ul className="footer-nav">
           <li>
-            <a href="/privacy">{TextContent.TextContent.Footer.privacy}</a>
+            <a href="/privacy" className="no-underline">{TextContent.TextContent.Footer.privacy}</a>
           </li>
           <li>
-            <a href="/terms">{TextContent.TextContent.Footer.terms}</a>
+            <a href="/terms" className="no-underline">{TextContent.TextContent.Footer.terms}</a>
           </li>
         </ul>
       </nav>
