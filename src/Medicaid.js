@@ -71,7 +71,7 @@ function MedicaidParagraph() {
         <li>{TextContent.TextContent.Medicaid.statesMedicaidApplication}</li>
       </ul>
       <h3>{TextContent.TextContent.Medicaid.medicaidVsMedicare}</h3>
-      <table>
+      <table className="medicaid-table">
         <tr>
           <th>{TextContent.TextContent.Medicaid.feature}</th>
           <th>{TextContent.TextContent.Medicaid.medicaid}</th>
